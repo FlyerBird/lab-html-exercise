@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    font-family: 'Poppins';
+}
+
+/*****
+HEADER
+****/
+
+/*****
+BODY
+****/
+
+
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.header-section {
+    text-align: center;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.logo {
+    width: 10%;
+    min-width: 80px;
+    
+}
+
+
+.search-container {
+    width: 70%;
+    
+}
+
+.buttons-container {
+    width: 20%;
+    
+}
+
+.npm {
+    width: 80px;
+    margin-right: 1rem;
+}
+
+.lupa {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.search {
+    font-family: Poppins;
+    background-color: red;
+    color: white;
+    padding: 10px 30px
+}
+
+.input-search {
+    height: 45px;
+    width: 70%;
+    min-width: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 800;
+}
+
+.section1 {
+    height: 600px;
+    background-color: rgba(232, 217, 217, .3);
+}
+
+.article {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button1 {
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+}
+
+.h3Bring {
+    background-color: rgba(255, 204, 53, .4);
+    text-align: center;
+}
+
+.trianglepic {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button3 {
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+    color: white;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lastpics {
+    width: 200px;
+    height: 200px;
+}
+
+.h4 {
+    color: #ED1C24;
+}
+
+.card {
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+/*****
+FOOTER
+****/
